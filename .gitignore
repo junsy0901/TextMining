@@ -1,2 +1,5 @@
 venv/
 data/
+code/*.csv
+code/*.pt
+model/
