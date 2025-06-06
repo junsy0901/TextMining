@@ -33,7 +33,7 @@ labeled.csv: 라벨링된 조항과 근거 데이터
 ```bash
 streamlit run app.py
 ```
-📋 requirements.txt
+## 📋 requirements.txt
 ```text
 streamlit
 torch
