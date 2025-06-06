@@ -1,3 +1,6 @@
+### main.py를 웹에서 실행시키기 위해
+### streamlit ui를 추가한 코드
+
 import streamlit as st
 import torch
 import pandas as pd
