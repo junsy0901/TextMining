@@ -22,16 +22,13 @@ conda activate textmining
 pip install -r requirements.txt
 ```
 3. 필요 파일 준비
-프로젝트 루트 디렉토리에 다음 파일들이 필요합니다:
-
+프로젝트 루트 디렉토리에 다음 파일들이 필요합니다(드라이브 참고):
+```text
 embedding_dataset.pt: 임베딩된 조항 데이터셋
-
 labeled.csv: 라벨링된 조항과 근거 데이터
-
 ../model/classification/: 분류 모델 디렉토리
-
 ../model/legal-kr-sbert-contrastive/: 임베딩 모델 디렉토리
-
+```
 4. 애플리케이션 실행
 ```bash
 streamlit run app.py
